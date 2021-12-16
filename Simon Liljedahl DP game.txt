@@ -1,0 +1,18 @@
+Dmyt
+
+Simon Liljedahl
+A game where you pick up a maskros and put it in your inventory. but watch out!! so you dont start spinning to oblivion. 
+There is an amazing back story to this game. that hasnt yet been fully described. But let me tell you this.
+The protagonist has traveled 10000000000000 km by foot in search for love and revenge. because a certain guy has been really uncool to
+the main character which really sets the feeling and spiritual connection between the player and the main character. 
+In context to this. Right now the character is located right before a secret meeting thats been scheduled at this exact location
+A haunting but yet so facinating surprise awaits the main character. 
+to be continued.
+
+Patterns:
+- Singleton, in `InventoryManager.cs` in `class InventoryManager` as `InventoryManager.instance`
+  Used singleton to make the single instance of the class that could be accessed from anywhere.
+- Composite, in general the distrubiution of the code betweeen all scripts. There is a player mananger that manages 
+various types of functions.
+- Observer pattern, Subscribers in`PlayerManager.cs` in class `PlayerManager`in Function void Start() as "script".OnItemTouch
+  Action in physicsComponent in class  PhysicsComponent at line 11 and 24
